@@ -1,0 +1,368 @@
+/* add playball font */
+/* for snail song in hit song part*/
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+
+a{
+	/*remove underline*/
+	text-decoration: none;
+	
+	margin: 0px;
+	padding: 5px;
+	font-size:20px;
+	
+	color: #66CDAA;
+} 
+
+
+
+a:hover{
+	/*put mouse on the link, font color:#66CDBB*/
+	
+	color: #66CDBB;
+}
+
+a:active{
+	/*hold mouse on the link, font color: greenyellow*/
+   
+    color: greenyellow;
+}
+
+.choose{
+	margin-left: 30px;	
+}
+
+.header{
+	background-color: #66CDAA;
+	width: 100%;
+	height: 500px;
+}
+	
+.pic_box{
+	text-align: center;
+}
+
+.picture{
+	margin-top: 150px;
+	width: 150px;
+	height: 150px;
+    border-radius:200px;/* make the pic be circle */
+}
+
+.my_name{
+       text-align:center
+}   
+   
+.my_name span h1{
+	color: white;
+}
+	
+.nav{
+	margin-top: 7px;
+	text-align:center
+}
+
+.know_me{
+	text-align: center;
+}
+
+/*font of introduction part*/
+.know_me p{
+	font-family: georgia;
+	font-size:20px;
+	color:#000;
+	letter-spacing: 2px;/*letter-spacing*/
+}
+
+hr{
+	height:2px;
+	border:none;
+	border-top:2px 
+	dotted #66CDAA;/*dotted line*/
+	align-self: center;
+	width="50%"
+}
+
+.text{
+	margin-top: 50px;
+	margin-left: 80px;
+	/*the font of the title of each part*/
+	font-family:"blackadder itc";
+	font-size:50px;
+	color:green
+}
+
+body,ul,li{
+	margin:0;
+	padding:0;
+} 
+
+#know_more_button{
+	    width: 1200px;
+	    margin: 0 auto;
+		text-align: right;
+}
+	 
+.photograph{
+	position: initial;
+	background-color: white;
+	width: 100%;
+	height: 500px;
+} 
+
+.pictures{   
+	 width: 1200px;   
+	 height: 170px;   
+	 margin-top:50px;   
+	 margin-left: auto;   
+	 margin-right: auto;   
+}  
+
+.box{
+	 margin-left: 5px;
+	 margin-top: 5px;
+	 list-style-type:none;
+ }   
+ 
+.box:after{   
+	 display: block;   
+	 line-height: 0;   
+	 width:0;   
+	 height: 0;   
+	 clear: both;   
+	 visibility: hidden;   
+	 overflow: hidden;   
+}
+   
+.box li{
+	float:left;
+	line-height: 230px;
+	} 
+	  
+.box li{   
+	 display:block;   
+	 border: 5px solid #66CDAA;   
+	 width: 380px;   /*1200/3 = 400px  minus margin*/
+	 height: 230px;   
+	 text-align: center;   
+	 margin-left: -5px;   
+	 margin-top: -5px;   
+	 position: relative;   
+}   
+
+/*make the size of img in photo box fit small box*/
+.box li img{
+	 width: 380px;   
+	 height: 230px;  
+} 
+
+.see_more_button_right{
+		text-align: right;
+}
+
+/*set reading space*/
+.reading{
+	margin: 0 auto;
+	width: 1200px;
+	height: 500px;
+}
+
+.reading_after{
+	float: left;
+	height: 500px;
+	width: 30%;
+	border: #66CDAA 2px solid;
+}
+
+/*set font*/
+.reading_after ol li{
+	font-family:"playball";
+	font-size:23px;
+	margin-top: 10px;
+}
+
+.reading_now{
+	float: right;
+	height: 500px;
+	width: 68%;
+	border: #66CDAA 2px solid;
+}
+
+.reading_right_left{
+	    padding-left: 10px;
+	    float: left;
+	    width: 35%;
+	    box-sizing: border-box;
+}
+
+.book_pic{	
+	height: 280px;
+	/*click to listen "snail"*/
+	position: relative; 
+	display: inline-block;
+}
+
+.book_pic img{
+	width:250px ;
+	height: 280px;
+}
+
+/*click to listen "snail"*/
+.book_tip{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background: #ffffff;
+	color: #000000;
+	opacity: 0.6;
+	display: none;
+}
+
+/*hovor the mouse in the pic to show the text*/
+.book_pic:hover .book_tip {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.song_detail{
+	margin-top: 5px;
+	text-align: center;
+	height: 80px;
+	font-family: "arial";
+}
+
+.song_detail span{
+	font-size: 20px;
+	font-family: impact;
+}
+
+#snail_intro{
+	text-align: left; 
+	letter-spacing: 3px; 
+	font-family: georgia;
+	height: 100px;
+	width: 290px;
+	margin-left: 20px;
+}
+
+.song_sentence{
+	float: right;
+	width: 60%;
+	height:500px;
+	overflow-y:scroll; 
+	text-align: center;
+	font-family: 'Playball', cursive;
+	font-size: 20px;
+}
+
+.song_sentence p{
+	color:#000000;
+	line-height: 40px;
+}
+
+.life{
+	width: 1200px;
+	margin: 0 auto;
+	border: #66CDAA 2px solid;
+	border-bottom: none;/*disappear the bottom border*/
+}
+
+.something{
+	border: #66CDAA 1px solid;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+.life_head{
+	width: 100%;
+	height: auto;
+}
+
+.life_head_picture{
+	width: 100px;
+	height: 100px;
+    border-radius:100px;/*make the head_pic circle*/
+}
+
+.life_head_left{
+	margin: 50px;
+	float: left;
+}
+
+/*font of each part title*/
+.life_head_left_right{
+	padding-top: 100px;
+	font-family:"blackadder itc";
+	font-size:30px;
+	color:green
+}
+
+/*parent div for comment_bar*/
+.comment_bar{
+	bottom: 0;	
+	height: 50px;
+}
+
+/*div for comment_bar's pictures*/
+.style_pic{
+	margin-top: 5px;
+	margin-left: 20px;
+	width: 60px;
+	float: left;
+}
+
+/*the decoration in the left bottom to return to top*/
+.bottom_float_back_top{
+	 float: right;
+	 width:128px; 
+	 height:128px;
+	 position: fixed;
+	 bottom:0;
+}
+
+.bottom_float_back_top a img{
+	 width: 127px;
+	 height: 127px;
+}
+
+.footer {
+    flex: none;
+    padding: 0 30px;
+    height: 60px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+    background-color: black;
+}
+
+#see_more_button{
+	    width: 1200px;
+	    margin: 0 auto;
+}
+
+.width80{
+	width: 80%;
+}
+
+.width50{
+	width: 50%;
+}
+
+.width40{
+	width: 40%;
+}
+
+.width30{
+	width: 30%;
+}
+	
